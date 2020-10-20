@@ -1,0 +1,37 @@
+
+.App{
+  background: #fafafa;
+  height: 100vh;
+}
+.app__header{
+  background: white;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  padding-left: 30px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.loginscreen{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Buttons{
+  background: #282c34;
+  color: white;
+  border: 1px solid white;
+  border-radius:50px;
+  width: 150px;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+.app__posts{
+  display: flex;
+  justify-content: center;
+}
